@@ -1,0 +1,23 @@
+{
+  "name": "@zippin/react",
+  "version": "1.0.5",
+  "description": "Zippin React SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier . --write"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dropzone": "^5.1.0",
+    "eslint": "8.22.0",
+    "eslint-config-zippin": "*",
+    "react": "^18.2.0",
+    "tsconfig": "*"
+  },
+  "dependencies": {
+    "react-dropzone": "^14.2.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "zippin-sdks",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "npm@9.2.0",
+  "workspaces": [
+    "*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-zippin": "*",
+    "prettier": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=16.15.0"
+  }
+}
